@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wynntools is now Wynnia</title>
+<link rel="icon" href="https://malynsx.github.io/wynnia/brand/wynnia-ring-64.png">
+<script>
+  /* keep the rest of the address: /wynntools/<path>?<query>#<hash> -> /wynnia/<path>?<query>#<hash> */
+  var rest = location.pathname.replace(/^\/wynntools\/?/, '');
+  location.replace('https://malynsx.github.io/wynnia/' + rest + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=https://malynsx.github.io/wynnia/">
+</head>
+<body style="font-family: Ubuntu, system-ui, sans-serif; background: #232120; color: #fff; padding: 40px;">
+Wynntools is now <a style="color: #e0c27a" href="https://malynsx.github.io/wynnia/">Wynnia</a>.
+</body>
+</html>
